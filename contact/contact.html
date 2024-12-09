@@ -6,7 +6,7 @@
     <title>Comfea</title>
     <link rel="shortcut icon" type="x-icon" href="../images/Union.png">
     <!-- custom css -->
-    <link rel="stylesheet" href="FAQ.css">
+    <link rel="stylesheet" href="contact.css">
     <!-- Satoshi cdn -->
     <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
     <!-- Font Awesome cdn -->
@@ -17,7 +17,6 @@
 </head>
 <body>
     
-
     <!-- Navbar Section Starts -->
     
     <section id="nvabar">
@@ -70,7 +69,7 @@
                         </ul>
                     </nav>
     
-                    <a href="../contact/contact.html" target="_blank"><button class="header_btn">Contact Us</button></a>
+                    <button class="header_btn">Contact Us</button>
     
                     <div class="menu_bar">
                         <i class="fa-solid fa-bars"></i>
@@ -91,94 +90,85 @@
 
     <section id="hero">
 
-        <div class="hero_container">
+        <div class="hero_contact_container">
 
-            <!-- FAQ titale -->
-             <div class="hero_titale">
-                <h4>Frequently Asked Questions</h4>
-                <p>Here, we aim to answer all your questions about buying, selling, and renting properties. Whether you're a first-time
-                homebuyer or an experienced investor, we have the information you need.</p>
-                <div class="hero_titale_ser">
-                    <div class="hero_det_serbar">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text" placeholder="Search Your Dream Property">
-                    </div>
-                    <p>Popular questions: <span>Insurance</span> <span>Taxes</span> <span>Financing</span></p>
-                </div>
+            <!-- contact titale -->
+             <div class="hero_contact_til">
+                <h4>Contact us</h4>
+                <p>Our friendly team would love to hear from you.</p>
              </div>
-            
-             <!-- FAQ section -->
-              <div class="faq_section">
+             
+            <!-- contact form -->
+             <div class="hero_contact_form">
 
-                <div class="faq_catagory">
-                    <p>Categories</p>
+                <div class="hero_left">
 
-                    <div class="all_catagory">
-                        <p>All Categories</p>
-                        <p>Buying Property</p>
-                        <p>Selling Property</p>
-                        <p>Renting & Leasing</p>
-                        <p>Financing & Mortgages</p>
-                        <p>Legal & Documentation</p>
-                        <p>Property Management</p>
-                        <p>Investment Advice</p>
-                        <p>Maintenance & Repairs</p>
-                        <p>Real Estate Agents & Brokers</p>
-                        <p>Taxes & Fees</p>
-                        <p>Insurance</p>
+                    <div class="Name">
+                        <label>First Name
+                            <input type="text">
+                        </label>
+                        <label>Last Name
+                            <input type="text">
+                        </label>
                     </div>
-                </div>
-                
-                <div class="FAQ_Accordion">
-                
-                    <div class="FAQ_accordion_box">
-                        <p>How do I start the process of buying a property?</p>
-                        <i class="fa-solid fa-minus"></i>
+                    <div class="email">
+                        <label>Email</label>
+                        <input type="email">
                     </div>
-                
-                    <div class="FAQ_accordion_box">
-                        <p>What should I look for when buying a home?</p>
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                
-                    <div class="FAQ_accordion_box">
-                        <p>How much do I need for a down payment?</p>
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                
-                    <div class="FAQ_accordion_plus_box">
-                        <div class="plus_box">
-                            <h2>Can I get help with selling my property?</h2>
-                            <i class="fa-solid fa-plus"></i>
+                    <div class="phone">
+                        <label>Phone Number</label>
+                        <div>
+                            <p>US<i class="fa-solid fa-angle-down"></i></p>
+                            <input type="phone" placeholder="+1 (555) 000-0000">
                         </div>
-                        <p>Absolutely! Our team will help you with every aspect of selling your property, including pricing, marketing,
-                            and
-                            negotiating with buyers. We’ll guide you through the process to ensure a smooth sale.</p>
                     </div>
-                
-                    <div class="FAQ_accordion_box">
-                        <p>How much do I need for a down payment?</p>
-                        <i class="fa-solid fa-minus"></i>
+                    <div class="message">
+                        <label>Message</label>
+                        <textarea placeholder="Leave us a message..."></textarea>
                     </div>
-                
-                    <div class="FAQ_accordion_box">
-                        <p>How much do I need for a down payment?</p>
-                        <i class="fa-solid fa-minus"></i>
+                    <div class="checkbox">
+                        <input type="checkbox" id="terms">
+                        <label for="terms">You agree to our friendly privacy policy.</label>
                     </div>
-                
-                    <div class="FAQ_accordion_box">
-                        <p>How much do I need for a down payment?</p>
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                
-                    <div class="FAQ_accordion_box">
-                        <p>How much do I need for a down payment?</p>
-                        <i class="fa-solid fa-minus"></i>
-                    </div>
-                
+                    <button>Send Message</button>
                 </div>
 
-              </div>
+                <div class="hero_right">
+                    <!-- box 1 -->
+                    <div class="right_box">
+                        <i class="fa-regular fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>Our friendly team is here to help.</p>
+                        <h5>Info@example.com</h5>
+                    </div>
+
+                    <!-- box 2 -->
+                    <div class="right_box">
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>Mon-Fri from 8am to 5pm.</p>
+                        <h5>+1 555-0123-456</h5>
+                    </div>
+
+                    <!-- box 3 -->
+                    <div class="right_box">
+                        <i class="fa-solid fa-envelopes-bulk"></i>
+                        <h4>Head Office</h4>
+                        <p>Come say hello at our office HQ.</p>
+                        <h5>789 Elm Street, Springfield, Illinois 62704</h5>
+                    </div>
+
+                    <!-- box 4 -->
+                    <div class="right_box">
+                        <i class="fa-solid fa-envelopes-bulk"></i>
+                        <h4>Office</h4>
+                        <p>Come say hello at our office HQ.</p>
+                        <h5>27 Withy Grove, Manchester M4 2BS, United Kingdom</h5>
+                    </div>
+
+                </div>
+
+             </div>
 
         </div>
 
@@ -187,32 +177,6 @@
     <!-- hero section ends -->
 
 
-    <!-- contact section starts -->
-    
-    <section id="contact">
-    
-        <div class="contact_page">
-    
-            <div class="contact_container">
-    
-                <h4>Ready to find your dream home? Let us help!</h4>
-                <p>Don’t hesitate to get in touch with us and begin your journey to owning your dream home. We’re here to
-                    guide you every
-                    step of the way!</p>
-                <div class="input_box">
-                    <input type="text" placeholder="What’s your email?">
-                    <a>Subscribe</a>
-                </div>
-    
-            </div>
-    
-        </div>
-    
-    </section>
-    
-    <!-- contact section ends -->
-    
-    
     <!-- footer section starts -->
     
     <footer>
@@ -274,6 +238,7 @@
     </footer>
     
     <!-- footer section ends -->
+
 
 
     <script>
